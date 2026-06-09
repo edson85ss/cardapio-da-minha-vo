@@ -667,9 +667,15 @@ sendOrderButton.addEventListener("click", () => {
 
     message += `*Entrega ou retirada:* ${deliveryType.value}%0A`;
 
-    if (deliveryType.value === "Entrega") {
-        message += `*Endereço:* ${customerAddress.value.trim()}%0A`;
-    }
+	if (deliveryType.value === "Entrega") {
+
+		message += `*Endereço:* ${customerAddress.value.trim()}%0A`;
+
+	} else {
+
+		message += `*Retirar em:* ${CONFIG.pickupAddress}%0A`;
+
+	}
 
     message += `%0A*Forma de pagamento:* ${paymentMethod.value}%0A`;
 
