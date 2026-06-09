@@ -14,7 +14,7 @@ const CONFIG = {
 
     /* WhatsApp que receberá os pedidos */
 
-    whatsappNumber: "5511981628795",
+    whatsappNumber: "5518991971486",
 
     /* Logo da loja */
 
