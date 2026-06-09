@@ -33,6 +33,9 @@ const categoriesContainer =
 const storeStatus =
     document.getElementById("storeStatus");
 	
+const pickupInfo =
+    document.getElementById("pickupInfo");
+	
 /* ==================================================
    MODAL PRODUTO
    ================================================== */
@@ -543,6 +546,8 @@ function toggleAddressField() {
 
         deliveryFeeInfo.style.display = "block";
 
+        pickupInfo.style.display = "none";
+
         deliveryFeeInfo.textContent =
             `Taxa de entrega: ${formatCurrency(CONFIG.deliveryFee)}`;
 
@@ -553,6 +558,11 @@ function toggleAddressField() {
         customerAddress.value = "";
 
         deliveryFeeInfo.style.display = "none";
+
+        pickupInfo.style.display = "block";
+
+        pickupInfo.textContent =
+            `Retirar em: ${CONFIG.pickupAddress}`;
 
     }
 

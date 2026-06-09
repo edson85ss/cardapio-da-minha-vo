@@ -30,7 +30,7 @@ const CONFIG = {
 	 
 	/* Taxa delivery */
 	
-	deliveryFee: 8.00,
+	deliveryFee: 0.00,
 	
 	/* URL Google sheets */
 	
@@ -46,6 +46,9 @@ const CONFIG = {
     5: ["09:00", "19:00"], // Sexta
     6: ["09:00", "12:00"]  // Sábado
 },
+
+	/* Endereco retirada */
+	pickupAddress: "Avenida Rodrigues Alves, 67 - Andradina/SP",
 
     /* ==================================================
        CORES DA IDENTIDADE VISUAL
