@@ -290,6 +290,24 @@ body{
     resize: vertical;
 }
 
+.pickup-info {
+
+    margin-top: 8px;
+
+    padding: 10px 12px;
+
+    border-radius: 8px;
+
+    background: #f5f5f5;
+
+    font-size: 13px;
+
+    color: var(--text);
+
+    line-height: 1.4;
+
+}
+
 /* ===================================================
    BOTÃO CARRINHO
    =================================================== */
