@@ -720,5 +720,15 @@ body{
         margin:auto;
 
     }
+	
+	.modal-content {
+        max-width: 600px;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        max-height: 90vh;
+    }
 
 }
