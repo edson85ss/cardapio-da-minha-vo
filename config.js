@@ -11,6 +11,8 @@ const CONFIG = {
     /* Horário exibido no topo */
 
     // storeHours: "Seg a Sáb • 09h às 19h | Dom 09h às 12h",
+	
+	storeHours: "Voltaremos ao antedimento normal em 13/07/26",
 
     /* WhatsApp que receberá os pedidos */
 
