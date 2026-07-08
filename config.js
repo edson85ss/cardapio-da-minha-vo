@@ -10,7 +10,7 @@ const CONFIG = {
 
     /* Horário exibido no topo */
 
-    storeHours: "Seg a Sáb • 09h às 19h | Dom 09h às 12h",
+    // storeHours: "Seg a Sáb • 09h às 19h | Dom 09h às 12h",
 
     /* WhatsApp que receberá os pedidos */
 
@@ -38,13 +38,13 @@ const CONFIG = {
 
 	openingHours: {
     //0: null, // Domingo fechado
-	0: ["09:00", "12:00"], // Domingo
+	0: ["09:00", "09:01"], // Domingo
     1: ["09:00", "19:00"], // Segunda
     2: ["09:00", "19:00"], // Terça
-    3: ["09:00", "19:00"], // Quarta
-    4: ["09:00", "19:00"], // Quinta
-    5: ["09:00", "19:00"], // Sexta
-    6: ["09:00", "19:00"]  // Sábado
+    3: ["09:00", "09:01"], // Quarta
+    4: ["09:00", "09:01"], // Quinta
+    5: ["09:00", "09:01"], // Sexta
+    6: ["09:00", "09:01"]  // Sábado
 },
 
 	/* Endereco retirada */
