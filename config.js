@@ -10,12 +10,9 @@ const CONFIG = {
 
     /* Horário exibido no topo */
 
-    // storeHours: "Seg a Sáb • 09h às 19h | Dom 09h às 12h",
-	storeHours: "Aberto amanhã domingo das 09h às 12h",
-	
-	// storeHours: "Voltaremos ao antedimento normal em 13/07/26",
-
-    /* WhatsApp que receberá os pedidos */
+    storeHours: "Seg a Sáb • 09h às 19h | Dom 09h às 12h",
+		
+	/* WhatsApp que receberá os pedidos */
 
     whatsappNumber: "5518991971486",
 
@@ -47,7 +44,7 @@ const CONFIG = {
     3: ["09:00", "19:00"], // Quarta
     4: ["09:00", "19:00"], // Quinta
     5: ["09:00", "19:00"], // Sexta
-    6: ["09:00", "18:00"]  // Sábado
+    6: ["09:00", "19:00"]  // Sábado
 },
 
 	/* Endereco retirada */
