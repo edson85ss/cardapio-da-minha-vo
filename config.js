@@ -6,7 +6,7 @@ const CONFIG = {
 
     /* Nome da loja */
 
-    storeName: "Da Minha Vó Massas Afetivas",
+    storeName: "Fechado",
 
     /* Horário exibido no topo */
 
@@ -38,14 +38,21 @@ const CONFIG = {
 	productsSheetUrl: "https://docs.google.com/spreadsheets/d/18_m33h_qUJ_TyILfTIIdMhOMItSq4ySTFkJOersxY6E/gviz/tq?tqx=responseHandler:handleSheetData&gid=0",
 
 	openingHours: {
-    //0: null, // Domingo fechado
-	0: ["09:00", "12:00"], // Domingo
-    1: ["09:00", "18:00"], // Segunda
-    2: ["09:00", "18:00"], // Terça
-    3: ["09:00", "18:00"], // Quarta
-    4: ["09:00", "18:00"], // Quinta
-    5: ["09:00", "18:00"], // Sexta
-    6: ["09:00", "18:00"]  // Sábado
+    0: null, // Domingo fechado
+	1: null, // Segunda fechado
+	2: null, // Terça fechado
+	3: null, // Quarta fechado
+	4: null, // Quinta fechado
+	5: null, // Sexta fechado
+	6: null, // Sábado fechado
+	
+	//0: ["09:00", "09:01"], // Domingo
+    //1: ["09:00", "09:01"], // Segunda
+    //2: ["09:00", "09:01"], // Terça
+    //3: ["09:00", "09:01"], // Quarta
+    //4: ["09:00", "09:01"], // Quinta
+    //5: ["09:00", "09:01"], // Sexta
+    //6: ["09:00", "09:01"]  // Sábado
 },
 
 	/* Endereco retirada */
